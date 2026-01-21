@@ -1,0 +1,107 @@
+{
+    "Header": {
+        "title": "Localhost",
+        "join": "Join Crew"
+    },
+    "Hero": {
+        "title": "Disconnect Noise,\nConnect Localhost.",
+        "subtitle": "Immersive OS for Developers, Nomads, and Builders.",
+        "cta": "Enter Localhost"
+    },
+    "TargetAudience": {
+        "label": "Who is this for?",
+        "title": "Turn off the noise,<br />Focus on the essence",
+        "list": [
+            "Developers tired of staring at screens all day",
+            "Founders exhausted by meaningless networking",
+            "Solo makers missing real colleagues",
+            "Designers hungry for deep conversation"
+        ]
+    },
+    "Features": {
+        "focus": {
+            "title": "Focus",
+            "desc": "24/7 Voice Channels,\nYour Remote Pacemaker."
+        },
+        "insight": {
+            "title": "Insight",
+            "desc": "US Stocks, Crypto, Next Tech.\nFlow of Real Information."
+        },
+        "basecamp": {
+            "title": "Basecamp",
+            "desc": "From Digital Lounge to\nPhysical Hub in Jeungpyeong."
+        }
+    },
+    "Programs": {
+        "label": "Programs",
+        "title": "What we do together<br />Inside and outside the screen",
+        "deepwork": {
+            "title": "Deep Work Night",
+            "desc": "Every Thursday 10 PM. Silent time to protect each other's flow."
+        },
+        "bonfire": {
+            "title": "Bonfire Talk",
+            "desc": "Anonymous campfire talk to burn away worries. Honest stories."
+        },
+        "demo": {
+            "title": "Builder's Demo",
+            "desc": "Demo Day to showcase your project and get feedback."
+        }
+    },
+    "Story": {
+        "label": "Our Story",
+        "quote": "\"We wanted to escape the noise of the city.<br></br><gray>What we wanted was simple —</gray><br></br>A space to <orange>focus</orange> quietly,<br></br>People to share real <orange>information</orange> with.\"",
+        "founder": "Localhost Founders",
+        "date": "2024, at a cafe somewhere"
+    },
+    "Vision": {
+        "title": "Localhost: Jeungpyeong",
+        "loading": "(Loading...)",
+        "defaultText": "The First Physical Server in Jeungpyeong",
+        "hoverText": "Coming Soon",
+        "badge": "Coming Soon",
+        "description": "We are building the first physical server in Jeungpyeong.<br />See you soon, outside the screen."
+    },
+    "FAQ": {
+        "title": "FAQ",
+        "q1": "Can anyone join?",
+        "a1": "Yes, anyone who is a 'Builder' - developers, designers, PMs, founders - is welcome. We communicate equally regardless of seniority.",
+        "q2": "Is it a paid community?",
+        "a2": "Currently, all online programs are free. However, a small membership fee may apply for using the offline space in Jeungpyeong in the future.",
+        "q3": "Is participation mandatory?",
+        "a3": "Not at all. Feel free to just lurk, or come occasionally just to space out by the fire. Use it at your own pace."
+    },
+    "Footer": {
+        "cta": "Ready to find your root?",
+        "button": "Join the Crew",
+        "copyright": "© 2026 Localhost. All rights reserved."
+    },
+    "Waitlist": {
+        "title": "Stay in the loop",
+        "subtitle": "Be the first to hear about Localhost updates.",
+        "placeholder": "Enter your email address",
+        "button": "Notify Me",
+        "success": "Thank you! We'll be in touch soon.",
+        "error": "Please enter a valid email address."
+    },
+    "Join": {
+        "title": "Join the Crew",
+        "subtitle": "Choose the best way to connect with us.",
+        "back": "Back to Home",
+        "discord": {
+            "title": "Discord Community",
+            "desc": "Chat with builders in real-time and grow together.",
+            "label": "Join Server"
+        },
+        "instagram": {
+            "title": "Instagram",
+            "desc": "Follow our daily life and updates through photos.",
+            "label": "Follow Us"
+        },
+        "email": {
+            "title": "Direct Contact",
+            "desc": "Looking for collaboration or have specific questions?",
+            "label": "Send Email"
+        }
+    }
+}
