@@ -73,7 +73,7 @@ export default function SoundControl() {
                         initial={{ opacity: 0, x: 20, scale: 0.8 }}
                         animate={{ opacity: 1, x: 0, scale: 1 }}
                         exit={{ opacity: 0, x: 10, scale: 0.8 }}
-                        onClick={toggleSound}
+                        onClick={handleInvitationClick}
                         className="bg-[#FFB347] text-[#121212] px-4 py-2 rounded-full text-xs font-bold shadow-xl flex items-center gap-2 whitespace-nowrap hover:bg-[#FFCC80] transition-colors"
                     >
                         <span>Listen to Campfire</span>
