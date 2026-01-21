@@ -9,6 +9,7 @@ export default function SoundControl() {
     const [showInvitation, setShowInvitation] = useState(false);
     const [hasInteracted, setHasInteracted] = useState(false);
     const audioRef = useRef<HTMLAudioElement | null>(null);
+    const invitationTimerRef = useRef<NodeJS.Timeout | null>(null);
 
     useEffect(() => {
         // Create audio element once
@@ -17,10 +18,11 @@ export default function SoundControl() {
         audio.volume = 0.4;
         audioRef.current = audio;
 
-        // Show invitation after a short delay
-        const timer = setTimeout(() => {
-            // Check state via ref-like access or just closure (initial mount)
-            setShowInvitation(true);
+        // Show invitation after a short delay if not already playing
+        invitationTimerRef.current = setTimeout(() => {
+            if (audioRef.current && audioRef.current.paused) {
+                setShowInvitation(true);
+            }
         }, 3000);
 
         // Try to play on first global click (browser policy bypass)
@@ -32,6 +34,7 @@ export default function SoundControl() {
                     .then(() => {
                         setIsPlaying(true);
                         setShowInvitation(false);
+                        if (invitationTimerRef.current) clearTimeout(invitationTimerRef.current);
                     })
                     .catch(() => {
                         // User might need a direct click on a button
@@ -46,7 +49,7 @@ export default function SoundControl() {
         return () => {
             audio.pause();
             audioRef.current = null;
-            clearTimeout(timer);
+            if (invitationTimerRef.current) clearTimeout(invitationTimerRef.current);
             window.removeEventListener('click', handleFirstClick);
         };
     }, []); // Run only once on mount
@@ -63,6 +66,22 @@ export default function SoundControl() {
         setIsPlaying(!isPlaying);
         setHasInteracted(true);
         setShowInvitation(false);
+        if (invitationTimerRef.current) clearTimeout(invitationTimerRef.current);
+    };
+
+    const handleInvitationClick = (e: React.MouseEvent) => {
+        if (e) e.stopPropagation();
+        if (!audioRef.current) return;
+
+        // Only play if not already playing
+        if (audioRef.current.paused) {
+            audioRef.current.play().catch((err) => console.log("Audio play failed:", err));
+            setIsPlaying(true);
+        }
+
+        setShowInvitation(false);
+        setHasInteracted(true);
+        if (invitationTimerRef.current) clearTimeout(invitationTimerRef.current);
     };
 
     return (
