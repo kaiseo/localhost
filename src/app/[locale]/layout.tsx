@@ -9,7 +9,7 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 
 const pretendard = localFont({
-    src: "../../fonts/PretendardVariable.woff2",
+    src: "../fonts/PretendardVariable.woff2",
     display: "swap",
     variable: "--font-pretendard",
 });
