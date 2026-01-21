@@ -56,6 +56,49 @@
         "founder": "Localhost Founders",
         "date": "2024, at a cafe somewhere"
     },
+    "Location": {
+        "tag": "Base #1",
+        "title": "Jeungpyeong: The Genesis Land",
+        "subtitle": "Our very first base where all systems of the Village OS are deployed.",
+        "features": [
+            {
+                "title": "Into the Deep Nature",
+                "desc": "Perfect silence of the woods, far from urban noise."
+            },
+            {
+                "title": "1Gbps Infrastructure",
+                "desc": "High-speed workspace without compromise, even in the forest."
+            },
+            {
+                "title": "90m from Seoul",
+                "desc": "The perfect distance between an advanced local and a mega-city."
+            }
+        ]
+    },
+    "Roadmap": {
+        "title": "Expansion Roadmap",
+        "subtitle": "Localhost expands beyond a single space into a global network.",
+        "phases": [
+            {
+                "id": "Phase 01",
+                "status": "In Progress",
+                "title": "Base #1: Genesis Block",
+                "desc": "Deployment of Village OS and physical infrastructure in Jeungpyeong."
+            },
+            {
+                "id": "Phase 02",
+                "status": "Planning",
+                "title": "Network Scaling",
+                "desc": "Expansion and modularization into diverse terrains (Beach, Mountain, City)."
+            },
+            {
+                "id": "Phase 03",
+                "status": "Future",
+                "title": "Global OS v1.0",
+                "desc": "Completion of a decentralized nomad village network connecting the world."
+            }
+        ]
+    },
     "Vision": {
         "title": "Village OS: Base #1",
         "loading": "(Scaling...)",

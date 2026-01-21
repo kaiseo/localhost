@@ -56,6 +56,49 @@
         "founder": "Localhost Founders",
         "date": "2024, 어딘가의 카페에서"
     },
+    "Location": {
+        "tag": "Base #1",
+        "title": "Jeungpyeong: 시작의 땅",
+        "subtitle": "모든 인프라 시스템이 처음으로 배포되는 우리의 첫 번째 기지입니다.",
+        "features": [
+            {
+                "title": "Into the Deep Nature",
+                "desc": "도심의 소음이 닿지 않는 완벽한 숲의 고요함."
+            },
+            {
+                "title": "1Gbps Infrastructure",
+                "desc": "숲속에서도 타협 없는 초고속 작업 환경."
+            },
+            {
+                "title": "90m from Seoul",
+                "desc": "가장 진보된 로컬과 거대 도시의 절묘한 거리감."
+            }
+        ]
+    },
+    "Roadmap": {
+        "title": "Expansion Roadmap",
+        "subtitle": "Localhost는 단일 공간을 넘어 글로벌 네트워크로 확장됩니다.",
+        "phases": [
+            {
+                "id": "Phase 01",
+                "status": "In Progress",
+                "title": "Base #1: Genesis Block",
+                "desc": "충북 증평에 첫 번째 빌리지 OS 배포 및 물리 인프라 구축."
+            },
+            {
+                "id": "Phase 02",
+                "status": "Planning",
+                "title": "Network Scaling",
+                "desc": "다양한 지형(해변, 산악, 도시)으로의 기지 확장 및 모듈화."
+            },
+            {
+                "id": "Phase 03",
+                "status": "Future",
+                "title": "Global OS v1.0",
+                "desc": "전 세계를 잇는 탈중앙화된 노마드 빌리지 네트워크 완성."
+            }
+        ]
+    },
     "Vision": {
         "title": "Village OS: Base #1",
         "loading": "(Scaling...)",
