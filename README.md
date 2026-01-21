@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏙️ Localhost: Digital Nomad Village Project
 
-## Getting Started
+> **Disconnect Noise, Build Local Village.**
+> Infrastructure for digital nomads and a real-world village construction project in Jeungpyeong, South Korea.
 
-First, run the development server:
+---
+
+## 🏗️ The Vision: Beyond a Cabin
+
+Localhost is not just a community; it's an **Infrastructure Project**. We are building both the digital and physical foundations where nomads, developers, and builders can truly belong. Our mission is to solve the isolation of digital life by constructing a real-world village ecosystem.
+
+### Key Pillars:
+- **🛠️ Nomad Infrastructure**: Building the OS and services that power a nomad's life.
+- **🏡 Village Construction**: Real-world development of a nomad hub in Jeungpyeong.
+- **🔕 Focus-First Environment**: A space where you can turn off the noise and focus on the essence.
+- **🤝 Deep Connection**: Moving beyond shallow networking to real peer-to-peer building.
+
+---
+
+## ✨ Features
+
+- **Premium Immersive UI**: Cinematic noise textures, mouse-following spotlights, and multi-layer parallax depth.
+- **Atmospheric Experience**: Integrated ASMR (campfire ambience) to maintain focus and calmness.
+- **Internationalization (i18n)**: Fully localized for a global audience (KO/EN).
+- **Social Sharing Optimized**: Proper OG/Twitter metadata and cinematic share images.
+- **Waitlist & Hub**: Unified lead collection and multi-channel connection (Discord, Instagram, Email).
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Next.js 16 (App Router)](https://nextjs.org/)
+- **UI & Animation**: [Tailwind CSS v4](https://tailwindcss.com/), [Framer Motion](https://www.framer.com/motion/)
+- **i18n**: [next-intl](https://next-intl-docs.vercel.app/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Typography**: Pretendard Variable
+
+---
+
+## 🏃 Getting Started
 
 ```bash
+git clone https://github.com/kaiseo/localhost.git
+cd localhost
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Open http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🗺️ Roadmap
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- [x] Phase 1: Core Landing & GNB
+- [x] Phase 2: Visual & Atmospheric Polish
+- [x] Phase 3: Internationalization (KO/EN)
+- [x] Phase 4: Join Hub & Waitlist API
+- [x] Phase 5: SEO & SSR Optimization
+- [x] Phase 6: Professional Polish (README, OG Image, Custom Cursor)
+- [/] Phase 7: Real-world Village Expansion Features
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+© 2026 Localhost. All rights reserved.

@@ -38,7 +38,7 @@ export default function Vision() {
                         {/* Default Image (Always visible, behind) */}
                         <Image
                             src="/images/vision-default.png"
-                            alt="Localhost Vision Default"
+                            alt="Village Project Default"
                             fill
                             className="object-cover"
                         />
@@ -46,7 +46,7 @@ export default function Vision() {
                         {/* Hover Image (Fades in on top) */}
                         <Image
                             src="/images/vision-hover.png"
-                            alt="Localhost Vision Active"
+                            alt="Village Project Construction"
                             fill
                             className={`object-cover transition-opacity duration-700 ${isHovered ? "opacity-100" : "opacity-0"}`}
                         />

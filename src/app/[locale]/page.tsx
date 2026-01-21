@@ -11,17 +11,13 @@ import FAQ from "@/components/FAQ";
 export default function Home() {
     return (
         <>
-            <Header />
-            <main>
-                <Hero />
-                <TargetAudience />
-                <Features />
-                <Programs />
-                <Story />
-                <Vision />
-                <FAQ />
-            </main>
-            <Footer />
+            <Hero />
+            <TargetAudience />
+            <Features />
+            <Programs />
+            <Story />
+            <Vision />
+            <FAQ />
         </>
     );
 }

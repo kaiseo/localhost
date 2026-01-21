@@ -6,7 +6,7 @@ import { useTranslations } from 'next-intl';
 export default function Story() {
     const t = useTranslations('Story');
     return (
-        <section className="py-24 px-6 bg-[#121212] relative overflow-hidden">
+        <section id="story" className="py-24 px-6 bg-[#121212] relative overflow-hidden">
             {/* Gradient mesh background */}
             <div className="absolute top-0 left-1/4 w-96 h-96 bg-[#FFB347]/5 rounded-full blur-3xl" />
             <div className="absolute bottom-0 right-1/4 w-80 h-80 bg-[#FFB347]/3 rounded-full blur-3xl" />

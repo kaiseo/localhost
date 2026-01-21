@@ -9,6 +9,7 @@ import { useTranslations } from 'next-intl';
 export default function Footer() {
     const t = useTranslations('Footer');
     const tw = useTranslations('Waitlist');
+    const tj = useTranslations('Join');
     const [email, setEmail] = useState("");
     const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
 
@@ -20,10 +21,23 @@ export default function Footer() {
         }
 
         setStatus("loading");
-        // Simulate API call
-        await new Promise((resolve) => setTimeout(resolve, 1500));
-        setStatus("success");
-        setEmail("");
+        try {
+            const response = await fetch("/api/waitlist", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ email }),
+            });
+
+            if (response.ok) {
+                setStatus("success");
+                setEmail("");
+            } else {
+                setStatus("error");
+            }
+        } catch (error) {
+            console.error("Waitlist error:", error);
+            setStatus("error");
+        }
     };
 
     return (
@@ -108,14 +122,14 @@ export default function Footer() {
                         className="premium-card p-8 rounded-2xl h-full flex flex-col justify-between border-[#FFB347]/10"
                     >
                         <div className="mb-6">
-                            <h4 className="text-xl font-bold text-[#EDEDED] mb-3">Join the Community</h4>
-                            <p className="text-[#A1A1A1] text-sm leading-relaxed">디스코드에서 실시간으로 빌더들과 소통하고 프로젝트 소식을 가장 빠르게 확인하세요.</p>
+                            <h4 className="text-xl font-bold text-[#EDEDED] mb-3">{tj('discord.title')}</h4>
+                            <p className="text-[#A1A1A1] text-sm leading-relaxed">{tj('discord.desc')}</p>
                         </div>
                         <Link
                             href="/join"
                             className="w-full flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-[#FFB347] text-[#121212] font-bold text-base btn-glow hover:bg-[#FFCC80] transition-all"
                         >
-                            {t('button')}
+                            {tj('discord.label')}
                         </Link>
                     </motion.div>
                 </div>
@@ -138,10 +152,20 @@ export default function Footer() {
                     </a>
                 </div>
 
-                {/* Copyright */}
-                <p className="text-[#A1A1A1] text-xs font-mono uppercase tracking-widest opacity-50">
-                    {t('copyright')}
-                </p>
+                {/* Copyright & Legal */}
+                <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8 opacity-50">
+                    <p className="text-[#A1A1A1] text-xs font-mono uppercase tracking-widest">
+                        {t('copyright')}
+                    </p>
+                    <div className="flex items-center gap-6">
+                        <Link href="/privacy" className="text-[#A1A1A1] text-[10px] uppercase tracking-wider hover:text-[#FFB347] transition-colors">
+                            {t('privacy')}
+                        </Link>
+                        <Link href="/terms" className="text-[#A1A1A1] text-[10px] uppercase tracking-wider hover:text-[#FFB347] transition-colors">
+                            {t('terms')}
+                        </Link>
+                    </div>
+                </div>
             </div>
         </footer>
     );

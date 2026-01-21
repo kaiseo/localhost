@@ -30,6 +30,14 @@ export default function Header() {
                 </Link>
 
                 <div className="flex items-center gap-6">
+                    {/* Navigation */}
+                    <Link
+                        href="/blog"
+                        className={`text-sm font-medium transition-colors ${pathname.includes('/blog') ? 'text-[#FFB347]' : 'text-[#A1A1A1] hover:text-[#EDEDED]'}`}
+                    >
+                        {t('blog')}
+                    </Link>
+
                     {/* Language Switcher */}
                     <div className="flex items-center gap-2 text-sm font-medium">
                         <Link

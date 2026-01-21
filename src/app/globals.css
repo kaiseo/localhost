@@ -1,4 +1,23 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme inline {
+  --color-prose-body: var(--text-muted);
+  --color-prose-headings: var(--foreground);
+  --color-prose-links: var(--primary);
+  --color-prose-bold: var(--foreground);
+  --color-prose-counters: var(--primary);
+  --color-prose-bullets: var(--primary);
+  --color-prose-hr: rgba(255,255,255,0.1);
+  --color-prose-quotes: var(--primary);
+  --color-prose-quote-borders: var(--primary);
+  --color-prose-captions: var(--text-muted);
+  --color-prose-code: var(--primary-light);
+  --color-prose-pre-code: var(--foreground);
+  --color-prose-pre-bg: #1A1A1A;
+  --color-prose-th-borders: rgba(255,255,255,0.1);
+  --color-prose-td-borders: rgba(255,255,255,0.05);
+}
 
 /* ===== Localhost Design System ===== */
 /* "Digital Cabin in the Woods" - Cozy amber glow in dark environment */
@@ -39,6 +58,18 @@ body {
   color: var(--foreground);
   font-family: var(--font-pretendard), system-ui, sans-serif;
   min-height: 100vh;
+  cursor: none;
+}
+
+/* Show default cursor on mobile/touch devices or if pointer is fine */
+@media (hover: none) and (pointer: coarse) {
+  body {
+    cursor: auto;
+  }
+}
+
+a, button {
+  cursor: none;
 }
 
 /* ===== Glow Utilities ===== */

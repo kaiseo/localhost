@@ -1,12 +1,14 @@
 {
     "Header": {
         "title": "Localhost",
-        "join": "Join Crew"
+        "blog": "Base Log",
+        "join": "Build with Us"
     },
     "Hero": {
-        "title": "Disconnect Noise,\nConnect Localhost.",
-        "subtitle": "Immersive OS for Developers, Nomads, and Builders.",
-        "cta": "Enter Localhost"
+        "title": "Disconnect Noise,\nBuild Localhost.",
+        "subtitle": "The start of nomad infrastructure,\nfrom the first village to the world.",
+        "cta": "Start Journey",
+        "explore": "Explore Village"
     },
     "TargetAudience": {
         "label": "Who is this for?",
@@ -20,16 +22,16 @@
     },
     "Features": {
         "focus": {
-            "title": "Focus",
-            "desc": "24/7 Voice Channels,\nYour Remote Pacemaker."
+            "title": "Infrastructure",
+            "desc": "Reliable systems that allow nomads to fully immerse in their life and work."
         },
         "insight": {
             "title": "Insight",
-            "desc": "US Stocks, Crypto, Next Tech.\nFlow of Real Information."
+            "desc": "Markets, tech, and lifestyles.\nA flow of deep, practical information."
         },
         "basecamp": {
-            "title": "Basecamp",
-            "desc": "From Digital Lounge to\nPhysical Hub in Jeungpyeong."
+            "title": "Village OS",
+            "desc": "Beyond digital boundaries to\nthe real-world construction in Jeungpyeong."
         }
     },
     "Programs": {
@@ -55,12 +57,12 @@
         "date": "2024, at a cafe somewhere"
     },
     "Vision": {
-        "title": "Localhost: Jeungpyeong",
-        "loading": "(Loading...)",
-        "defaultText": "The First Physical Server in Jeungpyeong",
-        "hoverText": "Coming Soon",
-        "badge": "Coming Soon",
-        "description": "We are building the first physical server in Jeungpyeong.<br />See you soon, outside the screen."
+        "title": "Village OS: Base #1",
+        "loading": "(Scaling...)",
+        "defaultText": "First Base: Jeungpyeong",
+        "hoverText": "Scaling to Next Base",
+        "badge": "Base #1",
+        "description": "Jeungpyeong is just the beginning. We are building a massive infrastructure network connecting nomad villages worldwide."
     },
     "FAQ": {
         "title": "FAQ",
@@ -74,7 +76,9 @@
     "Footer": {
         "cta": "Ready to find your root?",
         "button": "Join the Crew",
-        "copyright": "© 2026 Localhost. All rights reserved."
+        "copyright": "© 2026 Localhost. All rights reserved.",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service"
     },
     "Waitlist": {
         "title": "Stay in the loop",
@@ -85,13 +89,13 @@
         "error": "Please enter a valid email address."
     },
     "Join": {
-        "title": "Join the Crew",
-        "subtitle": "Choose the best way to connect with us.",
-        "back": "Back to Home",
+        "title": "Build Together",
+        "subtitle": "Join the Nomad Village project in the way that fits you best.",
+        "back": "Back to Village",
         "discord": {
-            "title": "Discord Community",
-            "desc": "Chat with builders in real-time and grow together.",
-            "label": "Join Server"
+            "title": "Nomad Community",
+            "desc": "Connect with builders worldwide and help build the infrastructure in real-time.",
+            "label": "Join Project"
         },
         "instagram": {
             "title": "Instagram",
@@ -103,5 +107,16 @@
             "desc": "Looking for collaboration or have specific questions?",
             "label": "Send Email"
         }
+    },
+    "Metadata": {
+        "title": "Localhost | Digital Nomad Village Project",
+        "description": "Infrastructure for digital nomads. A real-world village construction project.",
+        "ogTitle": "Localhost | Village Project for Nomads",
+        "ogDescription": "Disconnect the noise and focus on the essence. Building lifestyle infrastructure for nomads."
+    },
+    "NotFound": {
+        "title": "Strayed from the path?",
+        "description": "It seems you've wandered outside the construction zone. Let's get you back to the station.",
+        "button": "Back to Station"
     }
 }
