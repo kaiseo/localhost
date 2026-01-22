@@ -6,9 +6,9 @@
     },
     "Hero": {
         "title": "Disconnect Noise,\nBuild Localhost.",
-        "subtitle": "The start of nomad infrastructure,\nfrom the first village to the world.",
+        "subtitle": "Localhost: The nomad infrastructure,\npowered by Village OS.",
         "cta": "Start Journey",
-        "explore": "Explore Village"
+        "explore": "Explore View"
     },
     "TargetAudience": {
         "label": "Who is this for?",
@@ -30,8 +30,8 @@
             "desc": "Markets, tech, and lifestyles.\nA flow of deep, practical information."
         },
         "basecamp": {
-            "title": "Village OS",
-            "desc": "Beyond digital boundaries to\nthe real-world construction in Jeungpyeong."
+            "title": "Village OS (Product)",
+            "desc": "The core service architecture of Localhost,\ncontrolling both digital and physical spaces."
         }
     },
     "Programs": {
@@ -58,8 +58,8 @@
     },
     "Location": {
         "tag": "Base #1",
-        "title": "Jeungpyeong: The Genesis Land",
-        "subtitle": "Our very first base where all systems of the Village OS are deployed.",
+        "title": "Deep Woods: The Hidden Genesis",
+        "subtitle": "Our first base is being designed in a confidential forest location, disconnected from the outside world.",
         "features": [
             {
                 "title": "Into the Deep Nature",
@@ -81,9 +81,9 @@
         "phases": [
             {
                 "id": "Phase 01",
-                "status": "In Progress",
+                "status": "Planning",
                 "title": "Base #1: Genesis Block",
-                "desc": "Deployment of Village OS and physical infrastructure in Jeungpyeong."
+                "desc": "Strategic master planning and Village OS design for Jeungpyeong."
             },
             {
                 "id": "Phase 02",
@@ -100,19 +100,19 @@
         ]
     },
     "Vision": {
-        "title": "Village OS: Base #1",
+        "title": "Village OS: Genesis Block",
         "loading": "(Scaling...)",
-        "defaultText": "First Base: Jeungpyeong",
+        "defaultText": "First Base: The Hidden Woods",
         "hoverText": "Scaling to Next Base",
         "badge": "Base #1",
-        "description": "Jeungpyeong is just the beginning. We are building a massive infrastructure network connecting nomad villages worldwide."
+        "description": "Base #1 is just the beginning. We are building a massive infrastructure network connecting nomad villages worldwide."
     },
     "FAQ": {
         "title": "FAQ",
         "q1": "Can anyone join?",
         "a1": "Yes, anyone who is a 'Builder' - developers, designers, PMs, founders - is welcome. We communicate equally regardless of seniority.",
         "q2": "Is it a paid community?",
-        "a2": "Currently, all online programs are free. However, a small membership fee may apply for using the offline space in Jeungpyeong in the future.",
+        "a2": "Currently, all online programs are free. However, a small membership fee may apply for using the offline space in the future.",
         "q3": "Is participation mandatory?",
         "a3": "Not at all. Feel free to just lurk, or come occasionally just to space out by the fire. Use it at your own pace."
     },
@@ -133,8 +133,8 @@
     },
     "Join": {
         "title": "Build Together",
-        "subtitle": "Join the Nomad Village project in the way that fits you best.",
-        "back": "Back to Village",
+        "subtitle": "Join the Localhost project journey in the way that fits you best.",
+        "back": "Back to Home",
         "discord": {
             "title": "Nomad Community",
             "desc": "Connect with builders worldwide and help build the infrastructure in real-time.",
@@ -153,9 +153,9 @@
     },
     "Metadata": {
         "title": "Localhost | Digital Nomad Village Project",
-        "description": "Infrastructure for digital nomads. A real-world village construction project.",
-        "ogTitle": "Localhost | Village Project for Nomads",
-        "ogDescription": "Disconnect the noise and focus on the essence. Building lifestyle infrastructure for nomads."
+        "description": "Localhost: Village OS and infrastructure project for digital nomads.",
+        "ogTitle": "Localhost | Powered by Village OS",
+        "ogDescription": "Disconnect the noise and focus on the essence. Building lifestyle infrastructure for nomads with Localhost."
     },
     "NotFound": {
         "title": "Strayed from the path?",

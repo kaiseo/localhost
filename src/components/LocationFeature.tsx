@@ -40,12 +40,15 @@ export default function LocationFeature() {
                                 <div className="flex justify-between items-center">
                                     <div className="flex flex-col">
                                         <span className="text-[#A1A1A1] text-[10px] uppercase tracking-widest font-mono">Current Status</span>
-                                        <span className="text-[#FFB347] font-bold">Base Under Construction</span>
+                                        <span className="text-[#FFB347] font-bold">Strategic Planning</span>
                                     </div>
                                     <div className="flex flex-col items-end">
-                                        <span className="text-[#A1A1A1] text-[10px] uppercase tracking-widest font-mono">Jeungpyeong, KR</span>
-                                        <span className="text-[#EDEDED] font-bold">36.78° N, 127.58° E</span>
+                                        <span className="text-[#A1A1A1] text-[10px] uppercase tracking-widest font-mono">Location Status</span>
+                                        <span className="text-[#EDEDED] font-bold">Deep Woods, KR (Confidential)</span>
                                     </div>
+                                </div>
+                                <div className="mt-4 pt-4 border-t border-white/5 text-center">
+                                    <span className="text-[#555] font-mono text-[10px] tracking-widest">36.XX° N, 127.XX° E</span>
                                 </div>
                             </motion.div>
                         </div>
